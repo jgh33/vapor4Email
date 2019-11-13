@@ -17,7 +17,9 @@ final class Todo: Model, Content {
     @Field(key: "title")
     var title: String
 
-    init() { }
+    init() {
+        
+    }
 
     init(id: Int? = nil, title: String) {
         self.id = id
